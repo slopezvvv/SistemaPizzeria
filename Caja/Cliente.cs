@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Caja
 {
-    class Cliente
+    class Cliente : Persona
     {
+        public Cliente(string nombre, int telefono) : base(nombre, telefono){}
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Caja
 {
-    class Repartidor
+    class Repartidor : Persona
     {
-
+        public Repartidor(string nombre, int telefono) : base(nombre, telefono){}
     }
 }
